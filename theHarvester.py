@@ -231,7 +231,7 @@ def start(argv):
         print "---------------------------"
         for users in people:
             print users
-        sys.exit()
+#        sys.exit()
     elif engine == "all":
         print "Full harvest.."
         all_emails = []
